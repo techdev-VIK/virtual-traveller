@@ -16,7 +16,7 @@ const Destinations = () => {
           <div className="card-body">
             <h4>Italy</h4>
             <p>Discover the beauty of Italy.</p>
-            <Link to="/italy" className="btn btn-primary">View Details</Link>
+            <Link to="/destinations/Y11w05u97Iw" className="btn btn-primary">View Details</Link>
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@ const Destinations = () => {
           <div className="card-body">
             <h4>Tokyo</h4>
             <p>Discover the beauty of Tokyo.</p>
-            <Link to="/tokyo" className="btn btn-primary">View Details</Link>
+            <Link to="/destinations/Y11w05u97Iw" className="btn btn-primary">View Details</Link>
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@ const Destinations = () => {
           <div className="card-body">
             <h4>Bali</h4>
             <p>Discover the beauty of Bali.</p>
-            <Link to="/bali" className="btn btn-primary">View Details</Link>
+            <Link to="/destinations/Y11w05u97Iw" className="btn btn-primary">View Details</Link>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ const Destinations = () => {
           <div className="card-body">
             <h4>Rome</h4>
             <p>Discover the beauty of Rome.</p>
-            <Link to="/rome" className="btn btn-primary">View Details</Link>
+            <Link to="/destinations/Y11w05u97Iw" className="btn btn-primary">View Details</Link>
           </div>
         </div>
       </div>
