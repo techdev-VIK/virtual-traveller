@@ -15,7 +15,6 @@ const VideoWindow = () => {
 
   return (
     <div style={{ position: "relative", width: "100vw", height: "100vh" }}>
-      {/* Prevent user interaction with YouTube controls */}
       <div style={{ pointerEvents: "none", width: "100%", height: "100%"}}>
         <ReactPlayer
           url={`https://www.youtube.com/watch?v=${id}`}

@@ -6,6 +6,7 @@ import Header from "./components/Header"
 import Home from "./components/Home"
 import Destinations from "./components/Destinations"
 import VideoWindow from "./components/VideoWindow";
+import VideoContainer from "./components/VideoContainer";
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
       <Header />
       <Routes>
           <Route path="/" element={<Home />}/>
-          <Route path="/destinations" element={<Destinations />} />
+          <Route path="/destinations" element={<VideoContainer />} />
           <Route path="/destinations/:id" element={<VideoWindow />} />
       </Routes>
       <Footer />
